@@ -1,10 +1,5 @@
 # Datasets
 A bunch of some 200 datasets. You can call it mini-kaggle :)
-#### [Download multiple data in csv file from here](https://drive.google.com/drive/folders/1QnVd_0t3NW3GiG8I6Ly1ypyablUawJmO?usp=sharing)
-
-<div align="center"><span><img height="500" width="500" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Data_types_-_en.svg/1200px-Data_types_-_en.svg.png"/>    <img height="500" width="500" src="https://miro.medium.com/max/430/0*rNapZQnyP5EBLYli.png"></span></div>
-
-
 
 ### Want to download any csv file for local use? Follow the steps mentioned below: 👇
 
@@ -21,13 +16,3 @@ A bunch of some 200 datasets. You can call it mini-kaggle :)
   <li>Now you are ready the use it locally!!</li>
 
 </ol>
-
-  ``` 
-  import requests
-  import pandas as pd
-  url = '{(copied url here)}' 
-  res = requests.get(url, allow_redirects=True)
-  with open('download_file_name.csv','wb') as file:
-      file.write(res.content)
-  download_file_name = pd.read_csv('download_file_name.csv') 
-  ```  
